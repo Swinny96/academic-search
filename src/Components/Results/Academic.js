@@ -3,7 +3,7 @@ import React from "react";
 const Academic = (props) => (
   <button className="Academic">
     <div className="Left">
-      <img className="Academic-Picture" src={props.picture} />
+      <img className="Academic-Picture" src={props.picture} alt={props.name} />
     </div>
     <div className="Right">
       <div className="fithty50">
@@ -15,11 +15,11 @@ const Academic = (props) => (
       <span className="Academic-Text">{props.text}</span>
       <div className="Academic-Links">
         <button className="Academic-Link" href="tel:">
-          <img src="" />
+          <img src="" alt="Phone" />
           {props.phone}
         </button>
         <button className="Academic-Link" href="mailto:">
-          <img src="" />
+          <img src="" alt="Email" />
           {props.email}
         </button>
       </div>
