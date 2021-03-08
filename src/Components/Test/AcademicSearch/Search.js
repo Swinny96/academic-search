@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import A_Z from "../../Search/A-Z";
-import Subject from "../../Search/Subject";
+import A_Z from "../AcademicSearch/A-Z";
 
-const Qualfications = {
+const Schools = {
   int: [
     {
       name: "NA",
@@ -29,18 +28,6 @@ const Qualfications = {
   ],
 };
 
-// name: "Leeds School Of Arts",
-// name: "School of Built Environment",
-// name: "Engineering and Computing",
-// name: "Leeds Business School",
-// name: "School of Clinical and Applied Sciences",
-// name: "School of Cultural Studies and Humanities",
-// name: "Carnegie School of Education",
-// name: "School of Events, Tourism and Hospitality Management",
-// name: "School of Health and Community Studies",
-// name: "Leeds Law School",
-// name: "Leeds School of Social Sciences",
-
 export default class AcademicSearch extends Component {
   state = {
     rows: [{}],
@@ -66,11 +53,9 @@ export default class AcademicSearch extends Component {
   handleChange() {
     this.setState({ pointsValue: this.state.CourseData.length });
   }
-  addCourse() {}
   render() {
     const { dataValue } = this.state;
-    const options = Qualfications[dataValue];
-
+    const options = Schools[dataValue];
     return (
       <div>
         <section className="Search">
@@ -114,11 +99,6 @@ export default class AcademicSearch extends Component {
             <span className="BigTxt">Or</span>
             <span className="ExploreTxt">Explore by subject</span>
             <A_Z />
-            <div className="Subjects-Grid">
-              <Subject subject="Words" />
-              <Subject subject="Words" />
-              <Subject subject="Words" />
-            </div>
           </div>
         </section>
         <div>
