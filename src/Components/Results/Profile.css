@@ -1,0 +1,120 @@
+.profile-single {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  min-height: 200px;
+  padding-right: 0;
+  padding-left: 0;
+  border: 1px solid #ddd;
+}
+.profile-contents {
+  display: flex;
+  justify-content: space-between;
+  font-family: "DIN-Pro-Regular";
+}
+.profile-single_image {
+  overflow: hidden;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.profile-single_info {
+  flex-grow: 1;
+  max-width: 440px;
+}
+.profile-single_name {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 0.3125rem;
+  font-weight: bold;
+}
+.profile-single_name_link {
+  margin: 0px;
+  margin-bottom: 0.3125rem;
+  text-decoration: none;
+  color: #000;
+}
+.profile-single_position {
+  color: #767676;
+  font-size: 0.625rem;
+}
+.profile-single_description {
+  font-size: 0.875rem;
+  line-height: 1.57;
+}
+.profile-single_get-in-touch {
+  flex-grow: 0;
+  margin: -10px;
+}
+.profile-single_get-item {
+  padding: 10px;
+  color: #753bbd;
+  list-style: none;
+}
+.profile-single_btn {
+  padding: 13px 24px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.03125rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-single_contacts {
+  color: #753bbd;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .profile-single {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .profile-single_description {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .profile-single_info {
+    margin-top: 0;
+  }
+  .profile-single_right-col {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .profile-single_image {
+    width: 200px;
+    height: 200px;
+  }
+  .profile-single_left-col {
+    order: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .profile-single_position {
+    font-size: 0.75rem;
+  }
+  .profile-single_description {
+    margin-top: 1.25rem;
+  }
+  .profile-single_get-in-touch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -15px;
+  }
+  .profile-single_get-item {
+    padding: 15px;
+  }
+}

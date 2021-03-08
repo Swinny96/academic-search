@@ -1,35 +1,32 @@
 import React, { Component } from "react";
 import Academic from "./Academic";
-import Placeholder from "../../assets/person.jpg";
 
 class Results extends Component {
   render() {
     return (
       <section className="Results">
-        <div className="Academics">
-          <Academic
-            picture={Placeholder}
-            name="Dr. Full Name"
-            schoollink=""
-            school="Leeds school of arts"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ac aliquam lorem mattis ridiculus dolor suscipit nullam. Imperdiet mattis neque, viverra iaculis aenean placerat in morbi. Ornare aliquam commodo id ultricies est facilisi aenean duis. Suspendisse id auctor sit feugiat egestas porta nisi, diam. Cursus aliquet dolor a mauris. Sit morbi tristique etiam faucibus. At mus a vestibulum nunc, a, elementum, tellus arcu consectetur. Vulputate enim, diam id mauris sed pretium amet magna. Turpis arcu facilisi ornare egestas cursus fermentum consectetur volutpat. Convallis cras nibh sit fermentum mattis. Neque fusce sapien sapien enim non et eget tristique. Turpis volutpat elit ac elementum donec aliquet diam.
-            Urna leo dictum cras ipsum. Quis congue turpis leo dictum enim ornare. Diam et quam facilisi natoque sed laoreet urna quisque cursus. Iaculis cursus orci libero."
-            phone="Tel"
-            email="Email"
-            subject="Subject Area"
-          />
-          <Academic
-            picture={Placeholder}
-            name="Dr. Full Name"
-            schoollink=""
-            school="Leeds school of arts"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. At ac aliquam lorem mattis ridiculus dolor suscipit nullam. Imperdiet mattis neque, viverra iaculis aenean placerat in morbi. Ornare aliquam commodo id ultricies est facilisi aenean duis. Suspendisse id auctor sit feugiat egestas porta nisi, diam. Cursus aliquet dolor a mauris. Sit morbi tristique etiam faucibus. At mus a vestibulum nunc, a, elementum, tellus arcu consectetur. Vulputate enim, diam id mauris sed pretium amet magna. Turpis arcu facilisi ornare egestas cursus fermentum consectetur volutpat. Convallis cras nibh sit fermentum mattis. Neque fusce sapien sapien enim non et eget tristique. Turpis volutpat elit ac elementum donec aliquet diam.
-            Urna leo dictum cras ipsum. Quis congue turpis leo dictum enim ornare. Diam et quam facilisi natoque sed laoreet urna quisque cursus. Iaculis cursus orci libero."
-            phone="Tel"
-            email="Email"
-            subject="Subject Area"
-          />
-        </div>
+        <Academic
+          picture="https://www.leedsbeckett.ac.uk/-/media/images/staff/kenscott.jpg?optimization=true&mw=50&hash=9EF906406AC061A627AF1D2E64F113AA%2050w%2050h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=75&hash=EA4FA1C0577326584B1F0B61A0C40DFA%2075w%2075h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=200&hash=96640529CCF6EB3921BC57944D4CAE2A%20200w%20200h"
+          name="Ken Scott"
+          profile="https://www.leedsbeckett.ac.uk/staff/ken-scott/"
+          role="Senior Lecturer"
+          school="Leeds School Of Arts"
+          text="One of the preeminent recording engineers and producers of the 20th century Ken Scott has garnered Gold, Platinum, and Diamond sales awards, Grammy nominations and a Clio (for the classic Coke ad I'd Like To Teach The World To Sing)."
+          phone="???"
+          email="Email"
+          subject="Subject Area"
+        />
+        <Academic
+          picture="https://www.leedsbeckett.ac.uk/-/media/images/staff/kenscott.jpg?optimization=true&mw=50&hash=9EF906406AC061A627AF1D2E64F113AA%2050w%2050h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=75&hash=EA4FA1C0577326584B1F0B61A0C40DFA%2075w%2075h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=200&hash=96640529CCF6EB3921BC57944D4CAE2A%20200w%20200h"
+          name="Ken Scott"
+          profile="https://www.leedsbeckett.ac.uk/staff/ken-scott/"
+          role="Senior Lecturer"
+          school="Leeds School Of Arts"
+          text="One of the preeminent recording engineers and producers of the 20th century Ken Scott has garnered Gold, Platinum, and Diamond sales awards, Grammy nominations and a Clio (for the classic Coke ad I'd Like To Teach The World To Sing)."
+          phone="???"
+          email="Email"
+          subject="Subject Area"
+        />
       </section>
     );
   }

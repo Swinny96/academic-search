@@ -1,119 +1,136 @@
 body {
-  background: #f0f3f8;
   margin: 0 5%;
+  font-family: Aveny-T-Bold, Aveny-T-Light, DIN-Pro-Bold, DIN-Pro-Medium,
+    DIN-Pro-Regular;
+  color: #131313;
 }
 
 #root {
   display: block;
 }
-
 .Contents {
-  display: grid;
   grid-template-columns: auto;
+  display: grid;
   gap: 40px;
+  max-width: 960px;
+  font-family: "DIN-Pro-Regular";
 }
+
 .Search {
   display: grid;
+  padding: 55px 0;
   gap: 8px;
-  background: #dfe6ee;
-  padding: 55px;
-  max-width: 1200px;
 }
+
 .Search-Title {
-  font-weight: normal;
+  margin: 0;
   font-size: 36px;
+  font-weight: normal;
   line-height: 41px;
   text-transform: uppercase;
-  margin: 0px;
 }
 
 .Search-Text {
-  font-weight: normal;
   font-size: 18px;
+  font-weight: normal;
   line-height: 21px;
 }
 
 .Search-Fields {
-  display: grid;
   grid-template-columns: auto auto;
-  gap: 8px;
+  display: grid;
   height: 35px;
+  gap: 8px;
 }
+
 .Search-Fields select {
-  border: solid 1px #000;
   padding: 6px;
+  border: solid 1px #000000;
 }
 
 .Search-Input {
   padding: 6px;
-  color: #ddd;
-  border: solid 1px #ddd;
+  border: solid 1px #dddddd;
+  color: #dddddd;
 }
 
 .Explore {
-  display: grid;
-  text-align: center;
   grid-template-columns: auto;
-  gap: 8px;
+  display: grid;
   margin-top: 30px;
+  text-align: center;
+  gap: 8px;
 }
+
 .BigTxt {
-  font-weight: normal;
   font-size: 36px;
+  font-weight: normal;
   line-height: 41px;
   text-transform: uppercase;
 }
+
 .ExploreTxt {
-  font-weight: normal;
   font-size: 18px;
+  font-weight: normal;
   line-height: 28px;
 }
+
 .A-Z button {
   background: none;
-  border: 0px;
-  font-weight: normal;
+  border: 0;
   font-size: 18px;
+  font-weight: normal;
   line-height: 28px;
 }
+
 .Subject {
-  margin: 0 auto;
   min-width: 250px;
   height: 40px;
-  background: #fff;
+  margin: 0 auto;
+  background: #ffffff;
   border: 2px solid #763cbe;
   color: #763cbe;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
+.Subject:hover {
+  background: #763cbe;
+  color: #ffffff;
+}
+
 .Subjects-Grid {
-  display: grid;
   grid-template-columns: auto auto auto;
-  gap: 8px;
-  margin-top: 16px;
-}
-.Results {
   display: grid;
+  margin-top: 16px;
+  gap: 8px;
+}
+
+.Results {
   grid-template-columns: auto;
+  display: grid;
   gap: 20px;
 }
 
 .Academics {
-  display: grid;
   grid-template-columns: auto;
+  display: grid;
   gap: 40px;
 }
 
 .Academic {
-  padding: 50px;
-  width: 100%;
-  background: #c3d0d9;
-  border: 1px solid #000000;
+  grid-template-columns: auto auto;
   display: grid;
-  grid-template-columns: 500px auto;
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #000000;
+  gap: 40px;
 }
 
 .Academic-Picture {
-  border-radius: 100%;
   max-width: 380px;
+  border-radius: 100%;
 }
 
 .fithty50 {
@@ -124,21 +141,21 @@ body {
 }
 
 .Academic-Title {
-  font-weight: normal;
+  margin: 0;
+  margin-right: 10px;
   font-size: 32px;
+  font-weight: normal;
   line-height: 55px;
   text-transform: uppercase;
-  margin: 0px;
-  margin-right: 10px;
 }
 
 .Academic-School {
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  text-transform: capitalize;
   margin-left: 10px;
   color: #763cbe;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  text-transform: capitalize;
   text-decoration: none;
 }
 
@@ -147,33 +164,202 @@ body {
 }
 
 .Academic-Links {
-  display: grid;
   grid-template-columns: auto auto;
+  display: grid;
   gap: 8px;
 }
 
 .Academic-Link {
-  margin: 0 auto;
-  width: 100%;
   height: 40px;
-  background: #fff;
+  padding: 10px 0;
+  background: #ffffff;
   border: 2px solid #763cbe;
   color: #763cbe;
-  font-weight: bold;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Academic-Link:hover {
+  background: #763cbe;
+  color: #ffffff;
+}
+
+.icon {
+  margin-right: 8px;
 }
 
 .Academic-Subject {
-  line-height: 21px;
   color: #763cbe;
+  line-height: 21px;
 }
 
 .Left {
   display: grid;
+  margin: 0 auto;
 }
 
 .Right {
-  display: grid;
   grid-template-columns: auto;
+  display: grid;
   text-align: left;
   gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .Search-Fields {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+  }
+
+  .Academic {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+    padding: 20px;
+  }
+
+  .Subjects-Grid {
+    grid-template-columns: auto;
+  }
+
+  .Subject {
+    width: 100%;
+  }
+
+  .fithty50 {
+    display: grid;
+  }
+
+  .Academic-Title {
+    margin: 0;
+  }
+
+  .Academic-School {
+    margin-left: 0;
+  }
+}
+
+#NA {
+  display: none;
+}
+
+.profile-single {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  min-height: 200px;
+  padding-right: 0;
+  padding-left: 0;
+  border: 1px solid #ddd;
+}
+.profile-contents {
+  display: flex;
+  justify-content: space-between;
+  font-family: "DIN-Pro-Regular";
+}
+.profile-single_image {
+  overflow: hidden;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.profile-single_info {
+  flex-grow: 1;
+  max-width: 440px;
+}
+.profile-single_name {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0px;
+  margin-bottom: 0.3125rem;
+  font-weight: bold;
+}
+.profile-single_name_link {
+  margin: 0px;
+  margin-bottom: 0.3125rem;
+  text-decoration: none;
+  color: #000;
+}
+.profile-single_position {
+  color: #767676;
+  font-size: 0.625rem;
+}
+.profile-single_description {
+  font-size: 0.875rem;
+  line-height: 1.57;
+}
+.profile-single_get-in-touch {
+  flex-grow: 0;
+  margin: -10px;
+}
+.profile-single_get-item {
+  padding: 10px;
+  color: #753bbd;
+  list-style: none;
+}
+.profile-single_btn {
+  padding: 13px 24px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.03125rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile-single_contacts {
+  color: #753bbd;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .profile-single {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .profile-single_description {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .profile-single_info {
+    margin-top: 0;
+  }
+  .profile-single_right-col {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .profile-single_image {
+    width: 200px;
+    height: 200px;
+  }
+  .profile-single_left-col {
+    order: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .profile-single_position {
+    font-size: 0.75rem;
+  }
+  .profile-single_description {
+    margin-top: 1.25rem;
+  }
+  .profile-single_get-in-touch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -15px;
+  }
+  .profile-single_get-item {
+    padding: 15px;
+  }
 }

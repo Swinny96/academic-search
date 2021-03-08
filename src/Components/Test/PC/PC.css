@@ -1,0 +1,28 @@
+.PC {
+  background: #c4c4c4;
+  text-align: center;
+}
+.PC_Title {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 37px;
+}
+.PC_Tabs {
+  width: 80%;
+  background: white;
+  width: 500px;
+}
+.PC-Tab {
+  display: block;
+  justify-items: center;
+}
+.PC-Contents {
+  width: 100%;
+}
+.PC_Campus {
+}
+.PC_Campus_Title {
+}
+.PCs {
+}

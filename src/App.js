@@ -1,12 +1,10 @@
 import "./App.css";
-import Search from "./Components/Search/Search";
-import Results from "./Components/Results/Results";
+import AcademicSearch from "./Components/Test/AcademicSearch/Search";
 
 function App() {
   return (
     <div className="Contents">
-      <Search />
-      <Results />
+      <AcademicSearch />
     </div>
   );
 }
