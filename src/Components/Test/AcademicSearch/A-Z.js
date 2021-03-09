@@ -26,7 +26,11 @@ const Subjects = {
     { subject: "Events Management" },
   ],
   F: [{ subject: "Film" }],
+  // G: [{ subject: "N/A" }],
   H: [{ subject: "Health Promotion" }, { subject: "History" }],
+  // I: [{ subject: "N/A" }],
+  // J: [{ subject: "N/A" }],
+  // K: [{ subject: "N/A" }],
   L: [
     { subject: "Law" },
     { subject: "Leadership Governance People Management" },
@@ -37,6 +41,7 @@ const Subjects = {
     { subject: "Music Sound" },
   ],
   N: [{ subject: "Nursing Healthcare" }, { subject: "Nutrition Dietetics" }],
+  // O: [{ subject: "N/A" }],
   P: [
     { subject: "Performing Arts" },
     { subject: "Planning Housing and Human Geography" },
@@ -44,6 +49,8 @@ const Subjects = {
     { subject: "PR Journalism" },
     { subject: "Psychological Therapies Mental Health" },
   ],
+  // Q: [{ subject: "N/A" }],
+  // R: [{ subject: "N/A" }],
   S: [
     { subject: "Safety Environmental Health" },
     { subject: "Social work" },
@@ -58,12 +65,18 @@ const Subjects = {
     { subject: "Therapautic Rehabilitation Sciences" },
     { subject: "Tourism Hospitality Management" },
   ],
+  // U: [{ subject: "N/A" }],
+  // V: [{ subject: "N/A" }],
+  // W: [{ subject: "N/A" }],
+  // X: [{ subject: "N/A" }],
+  // Y: [{ subject: "N/A" }],
+  // Z: [{ subject: "N/A" }],
 };
 
 class A_Z extends Component {
   state = {
     rows: [{}],
-    dataValue: "C",
+    dataValue: "A",
     value: "",
     name: "",
     CourseData: [],
@@ -91,36 +104,86 @@ class A_Z extends Component {
     return (
       <div>
         <div className="A-Z">
-          <button onChange={this.onChange} value="A">
+          <button onClick={this.onChange} value="A">
             A |
           </button>
-          <button onChange={this.onChange} value="B">
+          <button onClick={this.onChange} value="B">
             B |
           </button>
-          <button onChange={this.onChange}>C |</button>
-          <button onChange={this.onChange}>D |</button>
-          <button onChange={this.onChange}>E |</button>
-          <button onChange={this.onChange}>F |</button>
-          <button onChange={this.onChange}>G |</button>
-          <button onChange={this.onChange}>H |</button>
-          <button onChange={this.onChange}>J |</button>
-          <button onChange={this.onChange}>K |</button>
-          <button onChange={this.onChange}>L |</button>
-          <button onChange={this.onChange}>M |</button>
-          <button onChange={this.onChange}>O |</button>
-          <button onChange={this.onChange}>P |</button>
-          <button onChange={this.onChange}>Q |</button>
-          <button onChange={this.onChange}>R |</button>
-          <button onChange={this.onChange}>S |</button>
-          <button onChange={this.onChange}>T |</button>
-          <button onChange={this.onChange}>U |</button>
-          <button onChange={this.onChange}>V |</button>
-          <button onChange={this.onChange}>W |</button>
-          <button onChange={this.onChange}>X |</button>
-          <button onChange={this.onChange}>Y |</button>
-          <button onChange={this.onChange}>Z |</button>
+          <button onClick={this.onChange} value="C">
+            C |
+          </button>
+          <button onClick={this.onChange} value="D">
+            D |
+          </button>
+          <button onClick={this.onChange} value="E">
+            E |
+          </button>
+          <button onClick={this.onChange} value="F">
+            F |
+          </button>
+          {/* <button onClick={this.onChange} value="G">
+            G |
+          </button> */}
+          <button onClick={this.onChange} value="H">
+            H |
+          </button>
+          {/* <button onClick={this.onChange} value="I">
+            I |
+          </button>
+          <button onClick={this.onChange} value="J">
+            J |
+          </button>
+          <button onClick={this.onChange} value="K">
+            K |
+          </button> */}
+          <button onClick={this.onChange} value="L">
+            L |
+          </button>
+          <button onClick={this.onChange} value="M">
+            M |
+          </button>
+          <button onClick={this.onChange} value="N">
+            N |
+          </button>
+          {/* <button onClick={this.onChange} value="O">
+            O |
+          </button> */}
+          <button onClick={this.onChange} value="P">
+            P |
+          </button>
+          {/* <button onClick={this.onChange} value="Q">
+            Q |
+          </button>
+          <button onClick={this.onChange} value="R">
+            R |
+          </button> */}
+          <button onClick={this.onChange} value="S">
+            S |
+          </button>
+          <button onClick={this.onChange} value="T">
+            T |
+          </button>
+          {/* <button onClick={this.onChange} value="U">
+            U |
+          </button>
+          <button onClick={this.onChange} value="V">
+            V |
+          </button>
+          <button onClick={this.onChange} value="W">
+            W |
+          </button>
+          <button onClick={this.onChange} value="X">
+            X |
+          </button>
+          <button onClick={this.onChange} value="Y">
+            Y |
+          </button>
+          <button onClick={this.onChange} value="Z">
+            Z |
+          </button> */}
         </div>
-        <div class="Subjects-Grid" onChange={this.handleChange}>
+        <div class="Subjects-Grid" onClick={this.handleChange}>
           {options.map((i) => (
             <button className="Subject">
               <span>{i.subject}</span>

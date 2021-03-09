@@ -16,7 +16,7 @@
   border: 1px solid #ddd;
 }
 .Tab:nth-child(2) {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 .Campuses {
   font-family: "Aveny-T-Bold";
@@ -30,17 +30,18 @@
   grid-template-columns: 50% 50%;
   margin: 0 auto;
   max-width: 400px;
-  width: 80%;
+  min-width: 300px;
+  width: 100%;
   max-height: 75px;
   background: white;
-  border-bottom: 8px solid;
-  border-color: #85df81;
+  border: 1px solid #ddd;
+  border-bottom: 8px solid #85df81;
 }
 .Campus:nth-child(2) {
-  border-color: #df8181;
+  border-bottom: 8px solid #df8181;
 }
 .Campus:nth-child(3) {
-  border-color: #ffb146;
+  border-bottom: 8px solid #ffb146;
 }
 .Campus_Content {
   display: grid;
