@@ -1,17 +1,21 @@
 .PC {
-  background: #c4c4c4;
+  background: #fff;
   text-align: center;
 }
 .PC_Title {
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 80px;
+  font-weight: 600;
   letter-spacing: 0;
   line-height: 37px;
+  background: #753bbd;
+  padding: 100px;
+  color: #fff;
+  text-align: left;
+  font-family: "Aveny-T-Bold";
 }
 .PC_Tabs {
   width: 80%;
   background: white;
-  width: 500px;
 }
 .PC-Tab {
   display: block;
@@ -25,4 +29,17 @@
 .PC_Campus_Title {
 }
 .PCs {
+}
+@media (max-width: 650px) {
+  .PC {
+    background: #c4c4c4;
+  }
+  .PC_Title {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px;
+    background: transparent;
+    color: #131313;
+  }
 }

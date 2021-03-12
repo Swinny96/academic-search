@@ -1,8 +1,5 @@
 .Tabs {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 0 auto;
-  max-width: 300px;
+  display: none;
 }
 .Tab {
   font-family: "DIN-Pro-Regular";
@@ -20,33 +17,23 @@
 }
 .Campuses {
   font-family: "Aveny-T-Bold";
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   display: grid;
-  gap: 0px;
+  gap: 20px;
   color: #131313;
 }
 .Campus {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto;
   margin: 0 auto;
-  max-width: 400px;
-  min-width: 300px;
   width: 100%;
-  max-height: 75px;
   background: white;
   border: 1px solid #ddd;
-  border-bottom: 8px solid #85df81;
-}
-.Campus:nth-child(2) {
-  border-bottom: 8px solid #df8181;
-}
-.Campus:nth-child(3) {
-  border-bottom: 8px solid #ffb146;
 }
 .Campus_Content {
   display: grid;
   text-align: left;
-  margin: 1em 1em 0px 1em;
+  margin: 0em 1em;
   max-height: 75px;
 }
 .CampusText {
@@ -54,10 +41,17 @@
   font-size: 0.8em;
   opacity: 0.7;
 }
+.CampusText .Reverse {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36px;
+}
 .CampusName {
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: bold;
+  opacity: 0.7;
 }
 .Stock {
   font-size: 28px;
@@ -65,16 +59,94 @@
   letter-spacing: 0;
   line-height: 34px;
 }
+
 .Campus_PCs {
-  text-align: right;
+  text-align: left;
   text-transform: uppercase;
   color: #131313;
-  margin: 1em 1em 0px 1em;
+  padding: 1em;
   max-height: 75px;
+  background: #85df81;
+}
+
+.Campuses:nth-child(2) .Campus .Campus_PCs {
+  background: #df8181;
+}
+
+.Campus_Text {
+  display: none;
+}
+
+.Campus_Text_Reverse {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.Campus_Text_Reverse .CampusText {
+  text-transform: lowercase;
+  font-weight: normal;
+  font-family: "DIN-Pro-Regular";
+}
+.Campus_Text_Reverse .Stock {
+  font-size: 32px;
+}
+
+.Campus-Title {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Aveny-T-Bold";
 }
 
 @media (max-width: 700px) {
   .CampusContents {
     margin: 6px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Tabs {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .Campus-Title {
+    display: none;
+  }
+  .Campuses {
+    grid-template-columns: auto;
+    gap: 0px;
+  }
+  .Campus_Content {
+    margin: 1em 1em 0px 1em;
+  }
+  .Campus {
+    gap: 0px;
+    grid-template-columns: 50% 50%;
+    max-height: 75px;
+    border-bottom: 8px solid #85df81;
+  }
+  .Campus:nth-child(2) {
+    border-bottom: 8px solid #df8181;
+  }
+  .Campus:nth-child(3) {
+    border-bottom: 8px solid #ffb146;
+  }
+  .Secondary {
+    display: none;
+  }
+  .Campus_PCs {
+    display: block;
+    text-align: right;
+    background: none;
+    padding: 1em 1em 0px 1em;
+  }
+  .Campus_Text {
+    display: block;
+  }
+  .Campus_Text_Reverse {
+    display: none;
   }
 }
