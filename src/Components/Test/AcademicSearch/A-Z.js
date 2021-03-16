@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SubjectsData from "./Data/Subjects.json";
 
 const Subjects = {
   A: [
@@ -101,15 +102,18 @@ const Schools = {
 };
 
 class A_Z extends Component {
-  state = {
-    rows: [{}],
-    dataValue: "A",
-    academicValue: "int",
-    value: "",
-    name: "",
-    CourseData: [],
-    AcademicData: [],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      rows: [{}],
+      dataValue: "A",
+      academicValue: "int",
+      value: "",
+      name: "",
+      CourseData: [],
+      AcademicData: [],
+    };
+  }
 
   handleChange = (idx) => (e) => {
     const { name, value } = e.target;
@@ -231,14 +235,23 @@ class A_Z extends Component {
           </button> */}
         </div>
         <div class="Subjects-Grid" onClick={this.handleChange}>
+          {SubjectsData.map((SubjectsList) => {
+            return (
+              <button className="None" value="Arts" id={SubjectsList.id}>
+                {SubjectsList.subjectName}
+              </button>
+            );
+          })}
           {options.map((i) => (
-            <button
-              className="Subject"
-              onClick={this.handleSubjectChange}
-              value={i.value}
-            >
-              <span>{i.subject}</span>
-            </button>
+            <div key={i}>
+              <button
+                className="Subject"
+                onClick={this.handleSubjectChange}
+                value={i.value}
+              >
+                <span>{i.subject}</span>
+              </button>
+            </div>
           ))}
         </div>
         <section className="Results" onChange={this.handleSubjectChange}>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import A_Z from "../AcademicSearch/A-Z";
+import SchoolData from "./Data/Schools.json";
 
 const Schools = {
   int: [
@@ -11,19 +12,42 @@ const Schools = {
       about: "",
       email: "",
       number: "",
+      SupervisorName: "",
+      ProfileImage: "",
+      ProfileUrl: "",
+      Department: "",
+      EmailAddress: "",
+      PhoneNumber: "",
+      JobTitle: "",
+      Excerpt: "",
     },
   ],
   Arts: [
     {
-      name: "Ken Scott",
-      picture:
-        "https://www.leedsbeckett.ac.uk/-/media/images/staff/kenscott.jpg?optimization=true&mw=50&hash=9EF906406AC061A627AF1D2E64F113AA%2050w%2050h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=75&hash=EA4FA1C0577326584B1F0B61A0C40DFA%2075w%2075h,/-/media/images/staff/kenscott.jpg?optimization=true&mw=200&hash=96640529CCF6EB3921BC57944D4CAE2A%20200w%20200h",
-      role: "Senior Lecturer",
-      school: "Leeds School Of Arts",
-      about:
-        "One of the preeminent recording engineers and producers of the 20th century Ken Scott has garnered Gold, Platinum, and Diamond sales awards, Grammy nominations and a Clio (for the classic Coke ad 'I'd Like To Teach The World To Sing').",
-      email: "",
-      number: "????",
+      name: "Dr Justin Morey",
+      SupervisorName: "Dr Justin Morey",
+      ProfileImage:
+        "https://www.leedsbeckett.ac.uk/-/media/images/staff/justin-2.jpg?mw=400&hash=750013ED880FA59D6AD82D3A91707C55%5C",
+      ProfileUrl: "https://www.leedsbeckett.ac.uk/staff/dr-justin-morey/",
+      Department: "Leeds School Of Arts",
+      EmailAddress: "J.Morey@leedsbeckett.ac.uk",
+      PhoneNumber: "01138127373",
+      JobTitle: "Senior Lecturer",
+      Excerpt:
+        "Justin has more than ten years experience as an independent studio owner, engineer and producer. His research interests include digital sampling, copyright, and creative practice in music production. He was awarded his doctorate in July 2017 for his thesis, ' A Study of Sampling Practice in British Dance Music, 1987-2012'.",
+    },
+    {
+      name: "Dr Matt Green",
+      SupervisorName: "Dr Matt Green",
+      ProfileImage:
+        "https://www.leedsbeckett.ac.uk/-/media/images/staff/matt_green.jpg?mw=400&hash=97819C316B287CD864F4F9634ECFE32A%5C",
+      ProfileUrl: "https://www.leedsbeckett.ac.uk/staff/dr-matt-green/",
+      Department: "Leeds School Of Arts",
+      EmailAddress: "Matthew.Green@leedsbeckett.ac.uk",
+      PhoneNumber: "01138126544",
+      JobTitle: "Senior Lecturer",
+      Excerpt:
+        "Matt Green is a practice-based researcher. He is a producer of site-specific sound art. The vast majority of Matt’s practice concerns public urban space, and has served to frame, accent and augment the host location through soundscape composition. These compositions are delivered via either multichannel sound installation/performance or mobile sound application.",
     },
   ],
 };
@@ -36,6 +60,18 @@ export default class AcademicSearch extends Component {
     name: "",
     CourseData: [],
   };
+
+  SchoolsDidMount() {
+    fetch(SchoolData)
+      .then((response) => {
+        //below method return promise based response by converting stream object to json
+        return response.json();
+      })
+      .then((json) => {
+        //Once succcessful callback return you can find length of number of item
+        console.log(json.length, json[2], json[3]);
+      });
+  }
 
   handleChange = (idx) => (e) => {
     const { name, value } = e.target;
@@ -70,25 +106,9 @@ export default class AcademicSearch extends Component {
           <div className="Search-Fields">
             <select id="CourseSelection" onChange={this.onChange}>
               <option value="int">Find an expert by academic school</option>
-              <option value="Arts">Leeds School Of Arts</option>
-              <option value="Arts">School of Built Environment</option>
-              <option value="Arts">Engineering and Computing</option>
-              <option value="Arts">Leeds Business School</option>
-              <option value="Arts">
-                School of Clinical and Applied Sciences
-              </option>
-              <option value="Arts">
-                School of Cultural Studies and Humanities
-              </option>
-              <option value="Arts">Carnegie School of Education</option>
-              <option value="Arts">
-                School of Events, Tourism and Hospitality Management
-              </option>
-              <option value="Arts">
-                School of Health and Community Studies
-              </option>
-              <option value="Arts">Leeds Law School</option>
-              <option value="Arts">Leeds School of Social Sciences</option>
+              {SchoolData.map((SchoolsList) => {
+                return <option value="Arts">{SchoolsList.schoolName}</option>;
+              })}
             </select>
             <input
               className="Search-Input"
@@ -108,11 +128,11 @@ export default class AcademicSearch extends Component {
                 <div className="profile-single">
                   <div className="profile-contents">
                     <div className="profile-single_right-col">
-                      <a href={i.profile}>
+                      <a href={i.ProfileUrl}>
                         <img
                           className="profile-single_image"
-                          src={i.picture}
-                          alt={i.name}
+                          src={i.ProfileImage}
+                          alt={i.SupervisorName}
                         />
                       </a>
                     </div>
@@ -121,23 +141,26 @@ export default class AcademicSearch extends Component {
                         <h3 className="profile-single_name">
                           <a
                             className="profile-single_name_link"
-                            href={i.profile}
+                            href={i.ProfileUrl}
                           >
-                            {i.name}
+                            {i.SupervisorName}
                           </a>
                         </h3>
                         <div className="profile-single_position">
-                          {i.role} / {i.school}
+                          {i.JobTitle} / {i.Department}
                         </div>
                         <div className="profile-single_description">
                           <div className="richtext">
-                            <p>{i.about}</p>
+                            <p>{i.Excerpt}</p>
                           </div>
                         </div>
                         <div className="profile-single_get-in-touch">
                           <div className="profile-single_get-item">
-                            <a className="profile-single_btn" href={i.email}>
-                              Email {i.name}
+                            <a
+                              className="profile-single_btn"
+                              href={i.EmailAddress}
+                            >
+                              Email {i.SupervisorName}
                             </a>
                           </div>
                           <ul className="profile-single_get-item">
@@ -147,7 +170,7 @@ export default class AcademicSearch extends Component {
                                 href="tel:????"
                               >
                                 <div className="inline__items">
-                                  <span>{i.phone}</span>
+                                  <span>{i.PhoneNumber}</span>
                                 </div>
                               </a>
                             </li>
