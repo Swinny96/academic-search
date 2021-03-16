@@ -1,44 +1,117 @@
 [
-    {"subjectName": "Accounting & Finance", "id": "4e055c50e71b492e8e684f953452e8ed"},
-    {"subjectName": "Architecture", "id": "37c3d68cf7e74158bb8f8109458b9549"},
-    {"subjectName": "Art", "id": "7f2842a4ce974e2a908a0d1b96b2f6aa"},
-    {"subjectName": "Biomedical Sciences", "id": "83d0b685eba44957a9b95f8e0757705d"},
-    {"subjectName": "Business Strategy, Operations & Enterprise", "id": "347e0518674e40538d5ee0a897f2c7df"},
-    {"subjectName": "Children, Youth & Community Studies", "id": "21ba7dd1b579491eb0d808feb2330688"},
-    {"subjectName": "Civil Engineering", "id": "2bb215a0efff4d14a02ca294d1d1bd4f"},
-    {"subjectName": "Computing", "id": "11000235318e44ca8194c9332becd9d0"},
-    {"subjectName": "Creative Technologies", "id": "f66f7554da5a44799236eaffe0538fce"},
-    {"subjectName": "Criminology", "id": "dbd3c2f568d34528a1a63e73e6f956ef"},
-    {"subjectName": "Design", "id": "b465d14abada474e8f0bd7d38c1abc41"},
-    {"subjectName": "Economics, Analytics & International Business", "id": "97347712afaa4afaab9c319af597e213"},
-    {"subjectName": "Education & Childhood", "id": "37b0a3bd8cf74595a203beef973dd45a"},
-    {"subjectName": "Engineering", "id": "97654a134a6b431ca9ec27a6134d8115"},
-    {"subjectName": "English", "id": "9a8d395860c844df8c49d4406265cdd9"},
-    {"subjectName": "Events Management", "id": "cf668ee059054c41a761a4766b755c62"},
-    {"subjectName": "Film", "id": "31ca91dceb774c9b8673cc16c97c235c"},
-    {"subjectName": "Health Promotion", "id": "b7ff0dc435a74b0989b542b043dbc095"},
-    {"subjectName": "History", "id": "cc52dde0bac44acbb30a1119e95c4a7a"},
-    {"subjectName": "Law", "id": "42377196cf14432ba1dd5f017aed3a21"},
-    {"subjectName": "Leadership, Governance & People Management", "id": "3bbde08a121f4fa9b59f12d92e270362"},
-    {"subjectName": "Marketing", "id": "b7e20cb7a2524f4fb1b59dbc41396ae1"},
-    {"subjectName": "Media", "id": "d98f22cd815e45f0b4177afad2265f11"},
-    {"subjectName": "Music & Sound", "id": "43754ecccec74d59a2d3a96e8b38e668"},
-    {"subjectName": "Nursing & Healthcare", "id": "815fa05209d54a41a55803c996988ba8"},
-    {"subjectName": "Nutrition & Dietetics", "id": "b34b32b349e248c29384351d0fb7ee5b"},
-    {"subjectName": "Performing Arts", "id": "1ebdcd95e4bf4283a6b5228600f60963"},
-    {"subjectName": "Planning, Housing & Human Geography", "id": "677499834910487b8494e2b04cac115a"},
-    {"subjectName": "Politics & International Relations", "id": "d44ef50a70644eb08daf5362486319a0"},
-    {"subjectName": "PR & Journalism", "id": "430fc9de097f4704bd5433edbca1abc7"},
-    {"subjectName": "Psychological Therapies & Mental Health", "id": "4a41bb28d25b460e9fae5c1c73a7cf04"},
-    {"subjectName": "Psychology", "id": "eb7f37bdf1614ccf80ea4fa63b968e04"},
-    {"subjectName": "Safety & Environmental Health", "id": "ffd95f85fba147eab3b414b9f5c049d1"},
-    {"subjectName": "Social work", "id": "670ea519d4804f2ebeaa4ca922a73d63"},
-    {"subjectName": "Sociology", "id": "7f469625fa974b098b6337e1511ebd9c"},
-    {"subjectName": "Speech & Language Therapies", "id": "dad7defffb1b494498ff6306da48ce40"},
-    {"subjectName": "Sport", "id": "16011fb679024728bfc23fd2a091cc7b"},
-    {"subjectName": "Surveying, Construction & Project Management", "id": "5b6723ea342e4f2d860aa303fd61601c"},
-    {"subjectName": "Energy & Sustainability", "id": "7a034f1456ab4d3491fb6e36c2fff728"},
-    {"subjectName": "Teaching", "id": "c90f856b3d824708a1ea1d05a2f695d1"},
-    {"subjectName": "Therapautic & Rehabilitation Sciences", "id": "dad6f10c884441f980de7f35c8853565"},
-    {"subjectName": "Tourism & Hospitality Management", "id": "f33cc7c22ecd490fad102137925faaef"}
+    {
+      "subjectName": "Accounting & Finance",
+      "id": "4e055c50e71b492e8e684f953452e8ed"
+    },
+    { "subjectName": "Architecture", "id": "37c3d68cf7e74158bb8f8109458b9549" },
+    { "subjectName": "Art", "id": "7f2842a4ce974e2a908a0d1b96b2f6aa" },
+    {
+      "subjectName": "Biomedical Sciences",
+      "id": "83d0b685eba44957a9b95f8e0757705d"
+    },
+    {
+      "subjectName": "Business Strategy, Operations & Enterprise",
+      "id": "347e0518674e40538d5ee0a897f2c7df"
+    },
+    {
+      "subjectName": "Children, Youth & Community Studies",
+      "id": "21ba7dd1b579491eb0d808feb2330688"
+    },
+    {
+      "subjectName": "Civil Engineering",
+      "id": "2bb215a0efff4d14a02ca294d1d1bd4f"
+    },
+    { "subjectName": "Computing", "id": "11000235318e44ca8194c9332becd9d0" },
+    {
+      "subjectName": "Creative Technologies",
+      "id": "f66f7554da5a44799236eaffe0538fce"
+    },
+    { "subjectName": "Criminology", "id": "dbd3c2f568d34528a1a63e73e6f956ef" },
+    { "subjectName": "Design", "id": "b465d14abada474e8f0bd7d38c1abc41" },
+    {
+      "subjectName": "Economics, Analytics & International Business",
+      "id": "97347712afaa4afaab9c319af597e213"
+    },
+    {
+      "subjectName": "Education & Childhood",
+      "id": "37b0a3bd8cf74595a203beef973dd45a"
+    },
+    { "subjectName": "Engineering", "id": "97654a134a6b431ca9ec27a6134d8115" },
+    { "subjectName": "English", "id": "9a8d395860c844df8c49d4406265cdd9" },
+    {
+      "subjectName": "Events Management",
+      "id": "cf668ee059054c41a761a4766b755c62"
+    },
+    { "subjectName": "Film", "id": "31ca91dceb774c9b8673cc16c97c235c" },
+    {
+      "subjectName": "Health Promotion",
+      "id": "b7ff0dc435a74b0989b542b043dbc095"
+    },
+    { "subjectName": "History", "id": "cc52dde0bac44acbb30a1119e95c4a7a" },
+    { "subjectName": "Law", "id": "42377196cf14432ba1dd5f017aed3a21" },
+    {
+      "subjectName": "Leadership, Governance & People Management",
+      "id": "3bbde08a121f4fa9b59f12d92e270362"
+    },
+    { "subjectName": "Marketing", "id": "b7e20cb7a2524f4fb1b59dbc41396ae1" },
+    { "subjectName": "Media", "id": "d98f22cd815e45f0b4177afad2265f11" },
+    { "subjectName": "Music & Sound", "id": "43754ecccec74d59a2d3a96e8b38e668" },
+    {
+      "subjectName": "Nursing & Healthcare",
+      "id": "815fa05209d54a41a55803c996988ba8"
+    },
+    {
+      "subjectName": "Nutrition & Dietetics",
+      "id": "b34b32b349e248c29384351d0fb7ee5b"
+    },
+    {
+      "subjectName": "Performing Arts",
+      "id": "1ebdcd95e4bf4283a6b5228600f60963"
+    },
+    {
+      "subjectName": "Planning, Housing & Human Geography",
+      "id": "677499834910487b8494e2b04cac115a"
+    },
+    {
+      "subjectName": "Politics & International Relations",
+      "id": "d44ef50a70644eb08daf5362486319a0"
+    },
+    {
+      "subjectName": "PR & Journalism",
+      "id": "430fc9de097f4704bd5433edbca1abc7"
+    },
+    {
+      "subjectName": "Psychological Therapies & Mental Health",
+      "id": "4a41bb28d25b460e9fae5c1c73a7cf04"
+    },
+    { "subjectName": "Psychology", "id": "eb7f37bdf1614ccf80ea4fa63b968e04" },
+    {
+      "subjectName": "Safety & Environmental Health",
+      "id": "ffd95f85fba147eab3b414b9f5c049d1"
+    },
+    { "subjectName": "Social work", "id": "670ea519d4804f2ebeaa4ca922a73d63" },
+    { "subjectName": "Sociology", "id": "7f469625fa974b098b6337e1511ebd9c" },
+    {
+      "subjectName": "Speech & Language Therapies",
+      "id": "dad7defffb1b494498ff6306da48ce40"
+    },
+    { "subjectName": "Sport", "id": "16011fb679024728bfc23fd2a091cc7b" },
+    {
+      "subjectName": "Surveying, Construction & Project Management",
+      "id": "5b6723ea342e4f2d860aa303fd61601c"
+    },
+    {
+      "subjectName": "Energy & Sustainability",
+      "id": "7a034f1456ab4d3491fb6e36c2fff728"
+    },
+    { "subjectName": "Teaching", "id": "c90f856b3d824708a1ea1d05a2f695d1" },
+    {
+      "subjectName": "Therapautic & Rehabilitation Sciences",
+      "id": "dad6f10c884441f980de7f35c8853565"
+    },
+    {
+      "subjectName": "Tourism & Hospitality Management",
+      "id": "f33cc7c22ecd490fad102137925faaef"
+    }
   ]
+  

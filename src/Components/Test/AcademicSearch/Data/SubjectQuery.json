@@ -1,1 +1,103 @@
-"[{\"SupervisorName\":\"Dr Justin Morey\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/justin-2.jpg?mw=400&hash=750013ED880FA59D6AD82D3A91707C55\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-justin-morey/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"J.Morey@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 27373\",\"JobTitle\":\"Senior Lecturer\",\"Excerpt\":\"Justin's background is in sound engineering and music production and his research interests include sampling, copyright and creative practice in music production.\"},{\"SupervisorName\":\"Dr Matt Green\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/matt_green.jpg?mw=400&hash=97819C316B287CD864F4F9634ECFE32A\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-matt-green/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"Matthew.Green@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 26544\",\"JobTitle\":\"Senior Lecturer\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Dr Nikos Stavropoulos\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/nick_20stavropoulos_209970.jpg?mw=400&hash=350FFD3ABC8222E83A018C01047622BB\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-nikos-stavropoulos/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"N.Stavropoulos@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 27333\",\"JobTitle\":\"Reader\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Dr Paul Ratcliff\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/paul-ratcliffe.png?mw=400&hash=7D185F3DCC2F7FFE1BC68885C59280F8\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-paul-ratcliff/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"P.Ratcliff@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 27561\",\"JobTitle\":\"Principal Lecturer\",\"Excerpt\":\"Paul Ratcliff is Principal Lecturer in Music and Sound. He has worked on creative technology projects in field recording, audio editing, art installations and performances.\"},{\"SupervisorName\":\"Dr Paul Thompson\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/paul-studio.jpg?mw=400&hash=5277B277F0C10B72C735AB4967B5994A\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-paul-thompson/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"P.A.Thompson@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 27563\",\"JobTitle\":\"Reader\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Dr Richard Stevens\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/richard_stevens.jpg?mw=400&hash=25E65739FA8AA03A66C5F70B89C36849\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-richard-stevens/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"R.C.Stevens@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 23690\",\"JobTitle\":\"Course Director\",\"Excerpt\":\"Dr Richard Stevens is Course Director for the postgraduate programmes in music and sound at Leeds Beckett University.\"},{\"SupervisorName\":\"Dr Steven Gerrard\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/stevengerrard.png?mw=400&hash=2B5A422175B0B884437E2FB0A0251F8D\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-steven-gerrard/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"S.D.Gerrard@leedsbeckett.ac.uk\",\"PhoneNumber\":\"????\",\"JobTitle\":\"Reader\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Dr Sue Miller\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/larger-images/sue_miller.jpg?mw=400&hash=1B73C96B258F95BE34AAA5FA770D4D52\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-sue-miller/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"S.M.Miller@leedsbeckett.ac.uk\",\"PhoneNumber\":\"01138121840\",\"JobTitle\":\"Reader\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Dr Will Barker\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/default.jpg?mw=400&hash=64590626F4D77D7B2B7011D9A7D3C38B\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/dr-will-barker/\",\"Department\":\"Leeds School Of Arts\",\"EmailAddress\":\"William.Barker@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 23266\",\"JobTitle\":\"Senior Lecturer\",\"Excerpt\":\"\"},{\"SupervisorName\":\"Professor Karl Spracklen\",\"ProfileImage\":\"https://www.leedsbeckett.ac.uk/-/media/images/staff/karlspracklen.jpg?mw=400&hash=63A335F5519E9F74043C39ACD9443653\",\"ProfileUrl\":\"https://www.leedsbeckett.ac.uk/staff/professor-karl-spracklen/\",\"Department\":\"Leeds School Of Social Sciences\",\"EmailAddress\":\"K.Spracklen@leedsbeckett.ac.uk\",\"PhoneNumber\":\"0113 81 23608\",\"JobTitle\":\"Director of Research\",\"Excerpt\":\"Karl Spracklen is a Professor of Sociology of Leisure and Culture based in the Leeds School of Social Sciences, and the Director of Research for Social Policy. He was previously a Professor of Leisure Studies here at Leeds Beckett University.\"}]"
+[
+    {
+      "SupervisorName": "Dr Justin Morey",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/justin-2.jpg?mw=400&hash=750013ED880FA59D6AD82D3A91707C55",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-justin-morey/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "J.Morey@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 27373",
+      "JobTitle": "Senior Lecturer",
+      "Excerpt": "Justin's background is in sound engineering and music production and his research interests include sampling, copyright and creative practice in music production."
+    },
+    {
+      "SupervisorName": "Dr Matt Green",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/matt_green.jpg?mw=400&hash=97819C316B287CD864F4F9634ECFE32A",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-matt-green/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "Matthew.Green@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 26544",
+      "JobTitle": "Senior Lecturer",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Dr Nikos Stavropoulos",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/nick_20stavropoulos_209970.jpg?mw=400&hash=350FFD3ABC8222E83A018C01047622BB",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-nikos-stavropoulos/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "N.Stavropoulos@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 27333",
+      "JobTitle": "Reader",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Dr Paul Ratcliff",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/paul-ratcliffe.png?mw=400&hash=7D185F3DCC2F7FFE1BC68885C59280F8",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-paul-ratcliff/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "P.Ratcliff@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 27561",
+      "JobTitle": "Principal Lecturer",
+      "Excerpt": "Paul Ratcliff is Principal Lecturer in Music and Sound. He has worked on creative technology projects in field recording, audio editing, art installations and performances."
+    },
+    {
+      "SupervisorName": "Dr Paul Thompson",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/paul-studio.jpg?mw=400&hash=5277B277F0C10B72C735AB4967B5994A",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-paul-thompson/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "P.A.Thompson@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 27563",
+      "JobTitle": "Reader",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Dr Richard Stevens",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/richard_stevens.jpg?mw=400&hash=25E65739FA8AA03A66C5F70B89C36849",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-richard-stevens/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "R.C.Stevens@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 23690",
+      "JobTitle": "Course Director",
+      "Excerpt": "Dr Richard Stevens is Course Director for the postgraduate programmes in music and sound at Leeds Beckett University."
+    },
+    {
+      "SupervisorName": "Dr Steven Gerrard",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/stevengerrard.png?mw=400&hash=2B5A422175B0B884437E2FB0A0251F8D",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-steven-gerrard/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "S.D.Gerrard@leedsbeckett.ac.uk",
+      "PhoneNumber": "????",
+      "JobTitle": "Reader",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Dr Sue Miller",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/larger-images/sue_miller.jpg?mw=400&hash=1B73C96B258F95BE34AAA5FA770D4D52",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-sue-miller/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "S.M.Miller@leedsbeckett.ac.uk",
+      "PhoneNumber": "01138121840",
+      "JobTitle": "Reader",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Dr Will Barker",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/default.jpg?mw=400&hash=64590626F4D77D7B2B7011D9A7D3C38B",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/dr-will-barker/",
+      "Department": "Leeds School Of Arts",
+      "EmailAddress": "William.Barker@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 23266",
+      "JobTitle": "Senior Lecturer",
+      "Excerpt": ""
+    },
+    {
+      "SupervisorName": "Professor Karl Spracklen",
+      "ProfileImage": "https://www.leedsbeckett.ac.uk/-/media/images/staff/karlspracklen.jpg?mw=400&hash=63A335F5519E9F74043C39ACD9443653",
+      "ProfileUrl": "https://www.leedsbeckett.ac.uk/staff/professor-karl-spracklen/",
+      "Department": "Leeds School Of Social Sciences",
+      "EmailAddress": "K.Spracklen@leedsbeckett.ac.uk",
+      "PhoneNumber": "0113 81 23608",
+      "JobTitle": "Director of Research",
+      "Excerpt": "Karl Spracklen is a Professor of Sociology of Leisure and Culture based in the Leeds School of Social Sciences, and the Director of Research for Social Policy. He was previously a Professor of Leisure Studies here at Leeds Beckett University."
+    }
+  ]
+  
